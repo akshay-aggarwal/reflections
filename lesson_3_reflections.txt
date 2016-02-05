@@ -17,3 +17,7 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 Ans. I'd have a single version to begin with, everyone who want's to contribute will make a copy and do his work. Once done, he'll get it reviewed, do a diff one by one and merge it.
 Easier - that no-one has to care about the version control workflow
 Harder - to maintain multiple copies, arbitrator to look over all the merges and to track changes, to go back and see the history, to merge
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Ans. If there are multiple people working on the same project, it's better that the co-worker creates a branch, and then allow other team members to give feedback on the work before merging the changes back into master. He can also make sure that his code is inline with the latest master, and then send a pull request.
+The other approach would be to have everyone working on the same master branch, I don't see many benifits in this approach.
