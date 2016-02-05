@@ -13,4 +13,7 @@ Braches are important to seperate different work being done on the repository, a
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Ans. You can know the status of your commits and the origin without access to the internet.
 
-
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Ans. I'd have a single version to begin with, everyone who want's to contribute will make a copy and do his work. Once done, he'll get it reviewed, do a diff one by one and merge it.
+Easier - that no-one has to care about the version control workflow
+Harder - to maintain multiple copies, arbitrator to look over all the merges and to track changes, to go back and see the history, to merge
