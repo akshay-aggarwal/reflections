@@ -3,3 +3,9 @@ Ans. When I have multiple workstations, and I want a central repository to keep 
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Ans. Updates in the remote might conflict with the exising code in the local repository, or the user might be testing some feature, and a pull might break the code.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Ans.
+Forks are used when you want to work on someone else's repository, by forking it GitHub will keep a pointer to the actual repository while allowing you to make your own changes to the forked repo, and add other collaborators.
+Clones are used to copy the repository to your local, so that you can work on it remotely, without being connected.
+Braches are important to seperate different work being done on the repository, and still have a production ready MASTER. Once a branch matures you can always merge it back to master and git rid of the branch. It basically helps from having multiple lousely coupled copies of code which are difficult to merge.
