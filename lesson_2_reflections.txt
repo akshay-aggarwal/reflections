@@ -1,0 +1,19 @@
+What happens when you initialize a repository? Why do you need to do it?
+Ans. We need to tell git that the location is a repository and needs to be tracked. It creates a hidden git folder.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans. With the help of staging area I can tell git which files to track and which not to. I have more control.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Ans. I can do a diff of the current working directory and the staging area and see what all changes have been staged for commit. Any other change which doesn't correspond to the intended logical commit can be verified and removed
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans. When I want to do an experimental change, or have multiple working versions of the code, which can be developed seperately. Here branches can help b not interfering in the master branch updates, like bug fixes.
+
+How do the diagrams help you visualize the branch structure?
+Ans. It tells you what different things you are working on. It tells you what commits are reachable via the current branch, what are not.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Ans. Automatic merging can help combine the code changes which are unambiguous. While the one with ambiguity, git leaves the responsibility of resolving the conflict with the user, which otherwise is a humungous task to achieve programically.
+
+--

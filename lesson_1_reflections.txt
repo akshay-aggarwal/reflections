@@ -1,0 +1,25 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Ans. It was really quick and intuitive. I had never thought that this could be this useful.
+I could really use this in my current project. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Ans.
+It can help me find bugs in code. 
+It can help me restore to a previous version.
+It will become possible to refer old code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Ans. Automatically saving code might be helpfull in case of a computer failure, of it the programmer is not very causious about saving the changes every now and then. But is can result in many unwanted versions which can later become really difficult to deal with. It's easier to go through a logical set of versions in which each version signifies a logical change.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Ans. In a a development project it is common to have 10s and 1000s of file. Many a time it is important to track the changes in multiple files together, which otherwise might not be able to provide the programmer complete context. 
+On the other hand application like google docs, doesn't usually have related file and changes in multiple files may not be necessary to track either.
+
+How can you use the commands git log and git diff to view the history of files?
+Ans. Git log allows you to see all the commits that were made, and shows the message along with it. While git diff allows you to compare two commits using their commit ids.
+
+How might using version control make you more confident to make changes that could break something?
+Ans. Now that git has my back, keeping all the checkpointed versions of the code, I can always go back if I ever break the code!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Ans. I wanna use it for organizing my project code, which is the incremental sales pipeline I'm doing in HQL
